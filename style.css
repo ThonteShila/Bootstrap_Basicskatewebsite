@@ -8,7 +8,7 @@
 
 }
 .sectionDark{
-    background-color: #cccccc;
+    background-color:gray;
     padding: 2rem;
 }
 .coolStuffWrapper{
@@ -26,4 +26,35 @@ h5.modal-title{
 }
 .formModalWrapper{
     padding: 2rem;
+}
+.imgCenter{
+    display: block;
+    margin: auto;
+    width: 345px;
+    height: 229px;
+}
+.btnCenter{
+    display: block;
+    margin: auto;
+    background-color: red;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 54;
+}
+.footerImg{
+    padding: 10px;
+}
+.fa-facebook-square{
+    color: #3b5998;
+}
+
+.fa-google-plus-square{
+    color: #c32f10;
+}
+
+.fa-instagram-square{
+    color: #ffffff;
+}
+.socialWrapper{
+    margin: auto;
 }

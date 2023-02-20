@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
+    <!--css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
     <title>Hello, world!</title>
   </head>
   <body>
@@ -89,12 +95,12 @@
             <div class="col"></div>
           </div>
           <!--section 2-->
-          <div class="sectionDark"></div>
+          <div class="sectionDark">
               <div class="row">
                 <div class="col-sm-12 col-md-1 offset-md-2">
                   <img class="img-fluid" src="prodigy.png">
                 </div>
-              </div>
+              
               <div class="col-sm-12 col-md-6">
                 <div class="row">
                   <div class="col-sm-12">
@@ -118,7 +124,8 @@
                   </div>
                 </div>
                 <div class="col"></div>
-                
+              </div>
+              </div>
               </div>
               <div class="row">
                 <div class="col-sm-12">
@@ -127,6 +134,63 @@
                   </div>
                 </div>
               </div>
+
+      <div class="sectionLight">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-sm-12 col-lg-4">
+                <img class="img-fluid imgCenter" src="skate1.jpg">
+              
+                <div class="row">
+                  <div class="col-sm-12">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" 
+                    data-target=".kf-modal-lg">kickflip</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-4">
+                <img class="img-fluid imgCenter" src="skate2.jpg">
+              
+                <div class="row">
+                  <div class="col-sm-12">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" 
+                    data-target=".flip-modal-md">Flip</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-4">
+                <img class="img-fluid imgCenter" src="skate3.jpg">
+              
+                <div class="row">
+                  <div class="col-sm-12">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" 
+                    data-target=".back-modal-sm">Backflip</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <footer class="footer bg-inverse">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-lg-3">
+              <img class="img-fluid footerImg" src="logo.jpg">
+            </div> 
+            <div class="col-sm-12 col-lg-9 socialWrapper">
+              <i class="fa fa-facebook-square  fa-3x" aria-hidden="true"></i>
+              <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+              <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+            </div>
+          </div>
+          </div>
+        </div>
+      </footer>
+
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -192,6 +256,47 @@
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
        
       </div>
+    </div>
+  </div>
+</div>
+<!--kickflip modal-->
+
+
+<div class="modal fade kf-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+ aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes?rel=0" allowfullscreen></iframe>
+      </div>
+      <p>kickflips are easy</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade flip-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+ aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes?rel=0" allowfullscreen></iframe>
+      </div>
+      <p>flips are pop,kick,catch easy</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade back-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+ aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes?rel=0" allowfullscreen></iframe>
+      </div>
+      <p>Backflips are nice and easy</p>
     </div>
   </div>
 </div>
